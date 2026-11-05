@@ -1,9 +1,9 @@
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:club_helena_cusworth/date_utils.dart';
-import 'package:club_helena_cusworth/reserva.dart';
-import 'package:club_helena_cusworth/sede.dart';
-import 'package:club_helena_cusworth/user_profile.dart';
+import 'package:club_gonzalo_gil/date_utils.dart';
+import 'package:club_gonzalo_gil/reserva.dart';
+import 'package:club_gonzalo_gil/sede.dart';
+import 'package:club_gonzalo_gil/user_profile.dart';
 
 void main() {
   group('parseBirthDate', () {

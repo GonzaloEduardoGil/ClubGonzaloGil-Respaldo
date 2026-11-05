@@ -315,7 +315,7 @@ class _HomeHeader extends StatelessWidget {
                 ),
                 const SizedBox(height: 50),
                 Text(
-                  'CLUB HELENA CUSWORTH',
+                  'CLUB GONZALO GIL',
                   style: TextStyle(
                     color: AppColors.indigo[500],
                     fontWeight: FontWeight.bold,

@@ -31,7 +31,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       // MaterialApp actua de "wrapper" o "envoltorio" para la aplicación. Se suele tener solo una instancia hacia la raíz del
       // árbol de widgets. Configura apariencia y routing (por ejemplo, con el atributo `home`).
-      title: 'ClubHelenaCusworth',
+      title: 'ClubGonzaloGil',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(
           seedColor: AppColors.indigo,

@@ -20,7 +20,7 @@ async def lifespan(app: FastAPI):
     task.cancel()
 
 
-app = FastAPI(title="ClubHelenaCusworth API", lifespan=lifespan)
+app = FastAPI(title="ClubGonzaloGil API", lifespan=lifespan)
 
 app.include_router(users.router)
 app.include_router(sedes.router)
