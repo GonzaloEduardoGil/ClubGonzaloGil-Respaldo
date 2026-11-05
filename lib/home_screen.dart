@@ -130,13 +130,13 @@ class _HomeScreenState extends State<HomeScreen> {
       ),
       bottomNavigationBar: Container(
         decoration: BoxDecoration(
-          color: Colors.white,
+          color: const Color.fromARGB(255, 152, 137, 137),
           border: Border(top: BorderSide(color: Colors.grey[700]!, width: 1)),
         ),
         child: BottomNavigationBar(
-          backgroundColor: Colors.white,
+          backgroundColor: const Color.fromARGB(255, 136, 125, 125),
           elevation: 0,
-          selectedItemColor: AppColors.indigo[700],
+          selectedItemColor: const Color.fromARGB(255, 255, 2, 2),
           unselectedItemColor: Colors.grey[500],
           type: BottomNavigationBarType.fixed,
           currentIndex: _selectedIndex,
